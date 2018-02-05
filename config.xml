@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="mob.app.dev.todo"
+        version="1.0.0">
+
+    <name>Week 14 - ToDo MBaaS</name>
+
+    <description>
+        A sample application that demonstrates Back
+    </description>
+
+    <author href="worcester.ac.uk" email="c.blythe@worc.ac.uk">
+        WBS Computing
+    </author>
+
+    <!-- Disabled to anot force 7.0.1 - 2017 defualts to cli-6.5.0 - required for permissions plugin cordova-plugin-geolocation-android-activator to work -->
+    <!-- <preference name="phonegap-version" value="cli-7.0.1" /> -->
+
+    <preference name="permissions" value="none" />
+
+    <access origin="*" />
+
+    <plugin name="cordova-plugin-whitelist" version="1" />
+
+
+</widget>
