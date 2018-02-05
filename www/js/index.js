@@ -25,7 +25,7 @@ function onPageShow() {
     // EVENT LISTENERS HERE
     // Initialise buttons
     $("#addTaskButton").click(onAddTask);
-    //$("#update").click(updateList);
+    $("#update").click(runQuery);
     
     //run a query
 //	Backendless.Data.of( "Tasks" ).find().then( processResults).catch(error);
@@ -81,3 +81,4 @@ function  processResults(tasks) {
 function error(err) {
     alert(err);
 }
+
